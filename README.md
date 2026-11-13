@@ -6,7 +6,7 @@
 
 轻松连接 · 自由分流 · 个性外观
 
-[![Android 1.2.13](https://img.shields.io/badge/Android-1.2.13-34D399?style=for-the-badge&logo=android&logoColor=white)](https://github.com/jtmyd-top/XPIG-Releases/releases/tag/android-v1.2.13)
+[![Android 1.2.14](https://img.shields.io/badge/Android-1.2.14-34D399?style=for-the-badge&logo=android&logoColor=white)](https://github.com/jtmyd-top/XPIG-Releases/releases/tag/android-v1.2.14)
 [![Windows 1.1.9](https://img.shields.io/badge/Windows-1.1.9-818CF8?style=for-the-badge&logoColor=white)](https://github.com/jtmyd-top/XPIG-Releases/releases/tag/windows-v1.1.9)
 
 [下载客户端](#下载客户端) · [功能一览](#功能一览) · [安装与更新](#安装与更新) · [常见问题](#常见问题)
@@ -21,12 +21,12 @@
 
 | 平台 | 当前版本 | 系统要求 | GitHub 下载 | 备用下载 |
 | :--- | :--- | :--- | :--- | :--- |
-| **Android 手机 / 平板** | **1.2.13** · 构建 2028 | Android 10 及以上；ARM64 / ARMv7 / x86_64 | [**下载 APK →**](https://github.com/jtmyd-top/XPIG-Releases/releases/download/android-v1.2.13/xpig-client-v1.2.13.apk) | [直连镜像](https://zz.xddgu.com/downloads/xpig-client-v1.2.13.apk) |
+| **Android 手机 / 平板** | **1.2.14** · 构建 2029 | Android 10 及以上；ARM64 / ARMv7 / x86_64 | [**下载 APK →**](https://github.com/jtmyd-top/XPIG-Releases/releases/download/android-v1.2.14/xpig-client-v1.2.14.apk) | [直连镜像](https://zz.xddgu.com/downloads/xpig-client-v1.2.14.apk) |
 | **Windows 电脑** | **1.1.9** · 构建 119 | Windows 10 / 11 · x64 | [**下载安装程序 →**](https://github.com/jtmyd-top/XPIG-Releases/releases/download/windows-v1.1.9/xpig-windows-1.1.9-x64-setup.exe) | [直连镜像](https://zz.xddgu.com/downloads/xpig-windows-1.1.9-x64-setup.exe) |
 
 > **Windows 最低可用版本：1.1.9（119）。** 低于此版本的客户端收到版本策略后，需要升级才能继续使用。
 
-[查看 Android 更新说明](https://github.com/jtmyd-top/XPIG-Releases/releases/tag/android-v1.2.13) · [查看 Windows 更新说明](https://github.com/jtmyd-top/XPIG-Releases/releases/tag/windows-v1.1.9) · [浏览全部发布记录](https://github.com/jtmyd-top/XPIG-Releases/releases)
+[查看 Android 更新说明](https://github.com/jtmyd-top/XPIG-Releases/releases/tag/android-v1.2.14) · [查看 Windows 更新说明](https://github.com/jtmyd-top/XPIG-Releases/releases/tag/windows-v1.1.9) · [浏览全部发布记录](https://github.com/jtmyd-top/XPIG-Releases/releases)
 
 ## 功能一览
 
@@ -40,6 +40,8 @@
 ## 安装与更新
 
 ### Android
+
+> 如果旧版应用内更新出现安装器崩溃或读取权限提示，请先用浏览器下载安装包，直接覆盖安装新版。无需卸载或清除数据。
 
 1. 下载上方 `.apk` 文件，在手机上打开安装。
 2. 首次安装时，按系统提示允许当前浏览器或文件管理器安装应用。
@@ -62,10 +64,10 @@
 <details>
 <summary><b>展开查看当前版本 SHA-256 与校验方法</b></summary>
 
-**Android 1.2.13**
+**Android 1.2.14**
 
 ```text
-3741d3c406c995777bd1b6cc60fcdbc005048c06e85b1030e637a7f20bee37e6  xpig-client-v1.2.13.apk
+d18a8a898b1b1e6d7876853314ac4b08398aa9d4aa8fda45d3ba0d2b7e15c274  xpig-client-v1.2.14.apk
 ```
 
 **Windows 1.1.9**
@@ -80,7 +82,7 @@ Windows PowerShell 中，可将文件路径替换为你实际下载的位置：
 Get-FileHash -Algorithm SHA256 -LiteralPath '.\xpig-windows-1.1.9-x64-setup.exe'
 ```
 
-[下载 Android 校验文件](https://github.com/jtmyd-top/XPIG-Releases/releases/download/android-v1.2.13/SHA256SUMS.txt) · [下载 Windows 校验文件](https://github.com/jtmyd-top/XPIG-Releases/releases/download/windows-v1.1.9/SHA256SUMS.txt)
+[下载 Android 校验文件](https://github.com/jtmyd-top/XPIG-Releases/releases/download/android-v1.2.14/SHA256SUMS.txt) · [下载 Windows 校验文件](https://github.com/jtmyd-top/XPIG-Releases/releases/download/windows-v1.1.9/SHA256SUMS.txt)
 
 </details>
 
@@ -88,7 +90,7 @@ Get-FileHash -Algorithm SHA256 -LiteralPath '.\xpig-windows-1.1.9-x64-setup.exe'
 
 **为什么手机端与电脑端版本号不同？**
 
-两个平台分别发布和迭代，Android 1.2.13 与 Windows 1.1.9 是各自当前提供的版本。
+两个平台分别发布和迭代，Android 1.2.14 与 Windows 1.1.9 是各自当前提供的版本。
 
 **GitHub 下载较慢怎么办？**
 
