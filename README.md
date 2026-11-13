@@ -6,8 +6,8 @@
 
 轻松连接 · 自由分流 · 个性外观
 
-[![Android 1.2.14](https://img.shields.io/badge/Android-1.2.14-34D399?style=for-the-badge&logo=android&logoColor=white)](https://github.com/jtmyd-top/XPIG-Releases/releases/tag/android-v1.2.14)
-[![Windows 1.1.9](https://img.shields.io/badge/Windows-1.1.9-818CF8?style=for-the-badge&logoColor=white)](https://github.com/jtmyd-top/XPIG-Releases/releases/tag/windows-v1.1.9)
+[![Android 1.2.15](https://img.shields.io/badge/Android-1.2.15-34D399?style=for-the-badge&logo=android&logoColor=white)](https://github.com/jtmyd-top/XPIG-Releases/releases/tag/android-v1.2.15)
+[![Windows 1.1.10](https://img.shields.io/badge/Windows-1.1.10-818CF8?style=for-the-badge&logoColor=white)](https://github.com/jtmyd-top/XPIG-Releases/releases/tag/windows-v1.1.10)
 
 [下载客户端](#下载客户端) · [功能一览](#功能一览) · [安装与更新](#安装与更新) · [常见问题](#常见问题)
 
@@ -21,12 +21,12 @@
 
 | 平台 | 当前版本 | 系统要求 | GitHub 下载 | 备用下载 |
 | :--- | :--- | :--- | :--- | :--- |
-| **Android 手机 / 平板** | **1.2.14** · 构建 2029 | Android 10 及以上；ARM64 / ARMv7 / x86_64 | [**下载 APK →**](https://github.com/jtmyd-top/XPIG-Releases/releases/download/android-v1.2.14/xpig-client-v1.2.14.apk) | [直连镜像](https://zz.xddgu.com/downloads/xpig-client-v1.2.14.apk) |
-| **Windows 电脑** | **1.1.9** · 构建 119 | Windows 10 / 11 · x64 | [**下载安装程序 →**](https://github.com/jtmyd-top/XPIG-Releases/releases/download/windows-v1.1.9/xpig-windows-1.1.9-x64-setup.exe) | [直连镜像](https://zz.xddgu.com/downloads/xpig-windows-1.1.9-x64-setup.exe) |
+| **Android 手机 / 平板** | **1.2.15** · 构建 2030 | Android 10 及以上；ARM64 / ARMv7 / x86_64 | [**下载 APK →**](https://github.com/jtmyd-top/XPIG-Releases/releases/download/android-v1.2.15/xpig-client-v1.2.15.apk) | [直连镜像](https://zz.xddgu.com/downloads/xpig-client-v1.2.15.apk) |
+| **Windows 电脑** | **1.1.10** · 构建 120 | Windows 10 / 11 · x64 | [**下载安装程序 →**](https://github.com/jtmyd-top/XPIG-Releases/releases/download/windows-v1.1.10/xpig-windows-1.1.10-x64-setup.exe) | [直连镜像](https://zz.xddgu.com/downloads/xpig-windows-1.1.10-x64-setup.exe) |
 
-> **Windows 最低可用版本：1.1.9（119）。** 低于此版本的客户端收到版本策略后，需要升级才能继续使用。
+> **Windows 最低可用版本：1.1.10（119）。** 低于此版本的客户端收到版本策略后，需要升级才能继续使用。
 
-[查看 Android 更新说明](https://github.com/jtmyd-top/XPIG-Releases/releases/tag/android-v1.2.14) · [查看 Windows 更新说明](https://github.com/jtmyd-top/XPIG-Releases/releases/tag/windows-v1.1.9) · [浏览全部发布记录](https://github.com/jtmyd-top/XPIG-Releases/releases)
+[查看 Android 更新说明](https://github.com/jtmyd-top/XPIG-Releases/releases/tag/android-v1.2.15) · [查看 Windows 更新说明](https://github.com/jtmyd-top/XPIG-Releases/releases/tag/windows-v1.1.10) · [浏览全部发布记录](https://github.com/jtmyd-top/XPIG-Releases/releases)
 
 ## 功能一览
 
@@ -64,25 +64,25 @@
 <details>
 <summary><b>展开查看当前版本 SHA-256 与校验方法</b></summary>
 
-**Android 1.2.14**
+**Android 1.2.15**
 
 ```text
-d18a8a898b1b1e6d7876853314ac4b08398aa9d4aa8fda45d3ba0d2b7e15c274  xpig-client-v1.2.14.apk
+9931246b435e41184592226d320ae8a850bee6a38f8694dbb73102aca58279a6  xpig-client-v1.2.15.apk
 ```
 
-**Windows 1.1.9**
+**Windows 1.1.10**
 
 ```text
-2f1d21f84a2585ff59c1b408642b947ab420f389f6adf0e2387fb52e9bce65a8  xpig-windows-1.1.9-x64-setup.exe
+d13342b8b9ce29fef2c4ac648c038cf233bacbfd851ef2bb99ac4061af78a985  xpig-windows-1.1.10-x64-setup.exe
 ```
 
 Windows PowerShell 中，可将文件路径替换为你实际下载的位置：
 
 ```powershell
-Get-FileHash -Algorithm SHA256 -LiteralPath '.\xpig-windows-1.1.9-x64-setup.exe'
+Get-FileHash -Algorithm SHA256 -LiteralPath '.\xpig-windows-1.1.10-x64-setup.exe'
 ```
 
-[下载 Android 校验文件](https://github.com/jtmyd-top/XPIG-Releases/releases/download/android-v1.2.14/SHA256SUMS.txt) · [下载 Windows 校验文件](https://github.com/jtmyd-top/XPIG-Releases/releases/download/windows-v1.1.9/SHA256SUMS.txt)
+[下载 Android 校验文件](https://github.com/jtmyd-top/XPIG-Releases/releases/download/android-v1.2.15/SHA256SUMS.txt) · [下载 Windows 校验文件](https://github.com/jtmyd-top/XPIG-Releases/releases/download/windows-v1.1.10/SHA256SUMS.txt)
 
 </details>
 
@@ -90,7 +90,7 @@ Get-FileHash -Algorithm SHA256 -LiteralPath '.\xpig-windows-1.1.9-x64-setup.exe'
 
 **为什么手机端与电脑端版本号不同？**
 
-两个平台分别发布和迭代，Android 1.2.14 与 Windows 1.1.9 是各自当前提供的版本。
+两个平台分别发布和迭代，Android 1.2.15 与 Windows 1.1.10 是各自当前提供的版本。
 
 **GitHub 下载较慢怎么办？**
 
