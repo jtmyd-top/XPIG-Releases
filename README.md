@@ -6,8 +6,8 @@
 
 轻松连接 · 自由分流 · 个性外观
 
-[![Android 1.2.16](https://img.shields.io/badge/Android-1.2.16-34D399?style=for-the-badge&logo=android&logoColor=white)](https://github.com/jtmyd-top/XPIG-Releases/releases/tag/android-v1.2.16)
-[![Windows 1.1.11](https://img.shields.io/badge/Windows-1.1.11-818CF8?style=for-the-badge&logoColor=white)](https://github.com/jtmyd-top/XPIG-Releases/releases/tag/windows-v1.1.11)
+[![Android 1.2.17](https://img.shields.io/badge/Android-1.2.17-34D399?style=for-the-badge&logo=android&logoColor=white)](https://github.com/jtmyd-top/XPIG-Releases/releases/tag/android-v1.2.17)
+[![Windows 1.1.12](https://img.shields.io/badge/Windows-1.1.12-818CF8?style=for-the-badge&logoColor=white)](https://github.com/jtmyd-top/XPIG-Releases/releases/tag/windows-v1.1.12)
 
 [下载客户端](#下载客户端) · [功能一览](#功能一览) · [安装与更新](#安装与更新) · [常见问题](#常见问题)
 
@@ -21,14 +21,14 @@
 
 | 平台 | 当前版本 | 系统要求 | GitHub 下载 | 备用下载 |
 | :--- | :--- | :--- | :--- | :--- |
-| **Android 手机 / 平板** | **1.2.16** · 构建 2031 | Android 10 及以上；ARM64 | [**下载 APK →**](https://github.com/jtmyd-top/XPIG-Releases/releases/download/android-v1.2.16/xpig-client-v1.2.16.apk) | [直连镜像](https://zz.xddgu.com/downloads/xpig-client-v1.2.16.apk) |
-| **Windows 电脑** | **1.1.11** · 构建 121 | Windows 10 / 11 · x64 | [**下载安装程序 →**](https://github.com/jtmyd-top/XPIG-Releases/releases/download/windows-v1.1.11/xpig-windows-1.1.11-x64-setup.exe) | [直连镜像](https://zz.xddgu.com/downloads/xpig-windows-1.1.11-x64-setup.exe) |
+| **Android 手机 / 平板** | **1.2.17** · 构建 2032 | Android 10 及以上；ARM64 | [**下载 APK →**](https://github.com/jtmyd-top/XPIG-Releases/releases/download/android-v1.2.17/xpig-client-v1.2.17.apk) | [直连镜像](https://zz.xddgu.com/downloads/xpig-client-v1.2.17.apk) |
+| **Windows 电脑** | **1.1.12** · 构建 122 | Windows 10 / 11 · x64 | [**下载安装程序 →**](https://github.com/jtmyd-top/XPIG-Releases/releases/download/windows-v1.1.12/xpig-windows-1.1.12-x64-setup.exe) | [直连镜像](https://zz.xddgu.com/downloads/xpig-windows-1.1.12-x64-setup.exe) |
 
 > **Windows 最低可用版本：1.1.9（119）。** 低于此版本的客户端收到版本策略后，需要升级才能继续使用。
 
-[查看 Android 更新说明](https://github.com/jtmyd-top/XPIG-Releases/releases/tag/android-v1.2.16) · [查看 Windows 更新说明](https://github.com/jtmyd-top/XPIG-Releases/releases/tag/windows-v1.1.11) · [浏览全部发布记录](https://github.com/jtmyd-top/XPIG-Releases/releases)
+[查看 Android 更新说明](https://github.com/jtmyd-top/XPIG-Releases/releases/tag/android-v1.2.17) · [查看 Windows 更新说明](https://github.com/jtmyd-top/XPIG-Releases/releases/tag/windows-v1.1.12) · [浏览全部发布记录](https://github.com/jtmyd-top/XPIG-Releases/releases)
 
-本次更新：两端深色连接卡片与柔和状态光晕；Windows 新增持续流动的连接按钮外圈。
+本次更新：改善连接恢复与智能分流默认体验；Windows 完善 TUN 与局域网共享端口处理，并继续优化暗色连接界面。
 
 ## 功能一览
 
@@ -66,25 +66,25 @@
 <details>
 <summary><b>展开查看当前版本 SHA-256 与校验方法</b></summary>
 
-**Android 1.2.16**
+**Android 1.2.17**
 
 ```text
-1e40fccd31f983d3066298cc4f2436ed73c4683e895776ad9fac7f06f71a5f86  xpig-client-v1.2.16.apk
+68ebee4f4f1935447cc233a688a9540566b03e98156fbb6bbd34ba531f7d30eb  xpig-client-v1.2.17.apk
 ```
 
-**Windows 1.1.11**
+**Windows 1.1.12**
 
 ```text
-1f0d173c8b51134c1021a7999b9756b2b684b80e0dc131c3f2ae9bdbf35c5702  xpig-windows-1.1.11-x64-setup.exe
+cb05fba1f6570efdb035c335cbff63a9a716a938b7ce79243987c7d108be87a4  xpig-windows-1.1.12-x64-setup.exe
 ```
 
 Windows PowerShell 中，可将文件路径替换为你实际下载的位置：
 
 ```powershell
-Get-FileHash -Algorithm SHA256 -LiteralPath '.\xpig-windows-1.1.11-x64-setup.exe'
+Get-FileHash -Algorithm SHA256 -LiteralPath '.\xpig-windows-1.1.12-x64-setup.exe'
 ```
 
-[下载 Android 校验文件](https://github.com/jtmyd-top/XPIG-Releases/releases/download/android-v1.2.16/SHA256SUMS.txt) · [下载 Windows 校验文件](https://github.com/jtmyd-top/XPIG-Releases/releases/download/windows-v1.1.11/SHA256SUMS.txt)
+[下载 Android 校验文件](https://github.com/jtmyd-top/XPIG-Releases/releases/download/android-v1.2.17/SHA256SUMS.txt) · [下载 Windows 校验文件](https://github.com/jtmyd-top/XPIG-Releases/releases/download/windows-v1.1.12/SHA256SUMS.txt)
 
 </details>
 
@@ -92,7 +92,7 @@ Get-FileHash -Algorithm SHA256 -LiteralPath '.\xpig-windows-1.1.11-x64-setup.exe
 
 **为什么手机端与电脑端版本号不同？**
 
-两个平台分别发布和迭代，Android 1.2.16 与 Windows 1.1.11 是各自当前提供的版本。
+两个平台分别发布和迭代，Android 1.2.17 与 Windows 1.1.12 是各自当前提供的版本。
 
 **GitHub 下载较慢怎么办？**
 
