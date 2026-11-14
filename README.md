@@ -19,10 +19,10 @@
 
 选择你的设备，直接下载安装包。两个平台独立维护版本号，请使用对应平台的入口。
 
-| 平台 | 当前版本 | 系统要求 | GitHub 下载 | 备用下载 |
+| 平台 | 当前版本 | 系统要求 | GitHub 下载 | 备用入口 |
 | :--- | :--- | :--- | :--- | :--- |
-| **Android 手机 / 平板** | **1.2.17** · 构建 2032 | Android 10 及以上；ARM64 | [**下载 APK →**](https://github.com/jtmyd-top/XPIG-Releases/releases/download/android-v1.2.17/xpig-client-v1.2.17.apk) | [直连镜像](https://zz.xddgu.com/downloads/xpig-client-v1.2.17.apk) |
-| **Windows 电脑** | **1.1.12** · 构建 122 | Windows 10 / 11 · x64 | [**下载安装程序 →**](https://github.com/jtmyd-top/XPIG-Releases/releases/download/windows-v1.1.12/xpig-windows-1.1.12-x64-setup.exe) | [直连镜像](https://zz.xddgu.com/downloads/xpig-windows-1.1.12-x64-setup.exe) |
+| **Android 手机 / 平板** | **1.2.17** · 构建 2032 | Android 10 及以上；ARM64 | [**下载 APK →**](https://github.com/jtmyd-top/XPIG-Releases/releases/download/android-v1.2.17/xpig-client-v1.2.17.apk) | [备用 Release 页面](https://github.com/jtmyd-top/XPIG-Releases/releases/tag/android-v1.2.17) |
+| **Windows 电脑** | **1.1.12** · 构建 122 | Windows 10 / 11 · x64 | [**下载安装程序 →**](https://github.com/jtmyd-top/XPIG-Releases/releases/download/windows-v1.1.12/xpig-windows-1.1.12-x64-setup.exe) | [备用 Release 页面](https://github.com/jtmyd-top/XPIG-Releases/releases/tag/windows-v1.1.12) |
 
 > **Windows 最低可用版本：1.1.9（119）。** 低于此版本的客户端收到版本策略后，需要升级才能继续使用。
 
